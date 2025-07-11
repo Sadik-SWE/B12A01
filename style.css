@@ -4,7 +4,65 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f2f4fc;
-  background-image: url(Assets/Hero-bg.png); /* 👈 Replace this with your image filename */
+  background-image: url(Assets/Hero-bg.png); 
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  gap: 40px;
+  background-color: #f6f8ff;
+  flex-wrap: wrap;
+}
+
+.action-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.action-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.action-text p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.preview-btn {
+  background-color: #4a5cff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.preview-btn:hover {
+  background-color: #374be0;
+  transform: translateY(-2px);
+}
+
+.action-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
